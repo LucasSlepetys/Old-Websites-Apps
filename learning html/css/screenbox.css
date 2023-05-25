@@ -1,0 +1,19 @@
+.box-a {
+	background-color: lightgray;
+	/*distance from the start of the box to the text */
+	padding: 30px;
+	/* line around the box */
+	border: 3px solid black;
+	/* distance from one box to another */
+	margin-bottom: 20px;
+	/* sizes of the box */
+	width: 250px;
+	height: 150px;
+	box-sizing: border-box;
+}
+
+.box-b{
+	background-color: orange;
+	width: 250px;
+	height: 150px;
+}

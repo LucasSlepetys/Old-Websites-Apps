@@ -1,0 +1,437 @@
+html,
+body {
+  font-size: 100%;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, blue, red, pink);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.todo_container {
+  background-color: white;
+  /* position: relative; */
+  margin: 10% 20% 0% 20%;
+  padding: 20px;
+  border: 5px solid black;
+
+  display: flex; /* establish flex container */
+  flex-direction: row; /* default value; can be omitted */
+  flex-wrap: nowrap; /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+  background-color: rgb(255, 255, 255);
+}
+
+.new-item {
+  background-color: white;
+  position: relative;
+  left: 0%;
+  margin-right: 2%;
+}
+
+.new-item h2 {
+  font-family: fantasy;
+  border-bottom: 1px solid black;
+}
+
+.new-item .text-input {
+  padding-right: 30%;
+  margin-bottom: 10px;
+  font-family: sans;
+}
+
+.new-item .date::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 5;
+  display: block;
+  background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png)
+    no-repeat;
+  width: 35px;
+  height: 10px;
+  border-width: thin;
+}
+
+.new-item .date {
+  font-family: sans;
+  color: Black;
+}
+
+.new-item .select {
+  margin-left: 10px;
+  font-family: sans;
+  margin-bottom: 8px;
+}
+
+.new-item .select2 {
+  font-family: sans;
+  margin-bottom: 8px;
+  padding-bottom: 2px;
+}
+
+.new-item .time {
+  width: 60px;
+  font-family: sans;
+}
+
+.new-item .color {
+  border-radius: 100px;
+  height: 15px;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+  overflow: auto;
+  width: 50%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  min-height: 20px;
+}
+
+textarea:hover {
+  border: 3px solid rgb(90, 88, 88);
+  box-shadow: 0 12px 16px 0 rgba(172, 163, 163, 0.5),
+    0 17px 50px 0 rgba(2, 2, 15, 0.19);
+  min-height: 100px;
+  transition-duration: 0.5s;
+}
+
+textarea:focus {
+  transition-duration: 0.5s;
+  width: 50%;
+  border: 3px solid rgb(97, 95, 95);
+  box-shadow: 0 12px 16px 0 rgba(218, 203, 203, 0.5),
+    0 17px 50px 0 rgba(2, 2, 15, 0.19);
+}
+
+.button {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+.sub-item {
+  margin-right: 5%;
+
+  top: 7%;
+  /* position: absolute; */
+  padding-left: 10%;
+  border-left: 1px solid rgb(221, 221, 221);
+}
+
+.sub-item .steps {
+  text-align: center;
+}
+
+.step0,
+.step1,
+.step2,
+.step3 {
+  font-family: monospace;
+}
+
+.next-step {
+  font-family: Impact;
+  color: rgba(60, 0, 255, 0.87);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 12px 16px 0 rgba(223, 65, 65, 0.5),
+    0 17px 50px 0 rgba(2, 2, 15, 0.19);
+}
+
+.highlight {
+  color: rgba(226, 24, 24, 0.534);
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.list-items {
+  font-size: 100%;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  left: 0%;
+  margin: 0% 20%;
+  text-align: left;
+  margin-top: 20px;
+  border: 5px solid black;
+  margin-bottom: 20px;
+}
+
+/* .list-items .mult-task {
+  float: right;
+  position: absolute;
+} */
+
+.show-button {
+  margin-top: 25%;
+  padding: 20px;
+  font-size: 130%;
+  font-family: monospace;
+  color: black;
+  background-color: white;
+  text-align: center;
+  float: right;
+  border-radius: 50px;
+}
+
+.CSSTableGenerator {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 60%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgb(247, 247, 248);
+  border-radius: 50px;
+  margin: 0% 20%;
+  margin-top: 20px;
+  position: relative;
+  text-align: left;
+}
+
+.CSSTableGenerator tr th {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.CSSTableGenerator th,
+.CSSTableGenerator td {
+  padding: 12px 15px;
+}
+
+.CSSTableGenerator tr {
+  border-bottom: 1px solid #080303;
+}
+
+.CSSTableGenerator tbody tr:nth-of-type(even) {
+  background-color: #ddcece;
+}
+
+.CSSTableGenerator tbody tr:nth-of-type(odd) {
+  background-color: #a19f9f;
+}
+
+.CSSTableGenerator tbody tr:last-of-type {
+  border-bottom: 4px solid #009879;
+}
+
+/* !questions page: */
+
+.question {
+  padding-right: 30%;
+  margin-bottom: 10px;
+  font-family: sans;
+}
+
+.question .first_name,
+.second_name,
+.email {
+  padding: 2% 30% 2% 10%;
+  margin-bottom: 10px;
+}
+
+/*! radio buttons!! (Copy and pasted and modified from a past project. ------- */
+
+/* The container */
+.form_second2 .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.form_second2 .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.form_second2 .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.form_second2 .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.form_second2 .container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.form_second2 .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.form_second2 .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.form_second2 .container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+/* !radio buttons finishes here!! ------ *
+
+/* ! Checkbox costomizations starts here! */
+
+/* The container */
+.checkbox .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox .container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* ! Checkboxes finishes here!÷ */
+
+.formating {
+  font-size: 100%;
+  font-family: sans-serif;
+  color: black;
+}
+
+.formating #paragraph_1 {
+  font-size: 140%;
+  color: rgb(235, 101, 92);
+}
+
+.formating #email_1 {
+  font-weight: bold;
+  color: rgb(31, 28, 28);
+  font-style: oblique;
+}
+
+.formating .needed {
+  font-weight: bold;
+  border: 2px dashed #495452;
+  font-family: sans-serif;
+  color: rgb(191, 62, 62);
+  padding: 5px;
+  opacity: 70%;
+}
+
+.formating .needed .emailing {
+  color: black;
+  padding-right: 10%;
+}
+
+.formating #keep_sending {
+  font-style: italic;
+  font-size: 110%;
+}
+
+.send-email {
+  margin: 10% 10%;
+}
+
+#sending {
+  padding: 20px;
+  font-size: 300%;
+  text-align: center;
+  color: rgb(18, 186, 237);
+  border: 2px dashed black;
+}
+
+.showing-email {
+  height: 110%;
+  width: 110%;
+}

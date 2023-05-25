@@ -1,0 +1,30 @@
+/*ways to style the page:*/
+/*
+size of the latters:
+changing from bold to normal to etc...:
+change the style:
+change the spaces between letters and words:
+add shadow to text = 4 values: 1 = horizoltal axis, 2 = vertical off set, 3 = blur radius, 4 = color of the shadow
+making all letters = capital letters or not captal letters
+making a underline on a text (should not do this order than links):
+*/
+.main-area h2 {
+	font-size: 200%;
+	font-weight: ;
+	font-style: italic;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+	text-shadow: 2px 10px 10px rgba(0, 0, 0, .5);
+	text-transform: uppercase / lowercase;
+	text-decoration: underline / none;
+	
+spacing
+}
+
+.main-area p {
+	font-size: 100%;
+	text-align: center;
+	text-indent: 25px;
+/*	space between each line*/
+	line-height: 1.5;
+}

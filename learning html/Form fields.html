@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Form field</title>
+	</head>
+	<body>
+		<!-- Select (dropdown) -->
+		<h2>Select</h2>
+		<label for="favoriteColor">What is your favorite color?</label>
+		<select id="favoriteColor" name="favoriteColor">
+			
+			<option value="colorRed">Red</option>
+			<option value="colorOrange">Orange</option>
+			<option value="colorYellow">Yellow</option>
+			
+		</select>
+		
+		<!--Radio inputs -->
+		<!-- Value = the data the we will use on javascript -->
+
+		<h2>Radio</h2>
+				
+		<fieldset>
+			<legend>What is your favorite meal?</legend>
+			<input value="meal1" id="breakfast" name="favoriteMeal" type="radio"><label for="breakfast">Breakfast</label>
+			<input value="meal2" id="brunch" name="favoriteMeal" type="radio"><label for="brunch">Brunch</label>
+			<input value="meal3" id="lunch" name="favoriteMeal" type="radio"><label for="lunch">Lunch</label>
+		</fieldset>
+		
+		<!-- Check Boxes -->
+		<h2>Check boxes</h2>
+		
+		<fieldset>
+			<legend>Which meals do you enjoy? (check all that apply)</legend>
+			
+			<input value="meal1" id="breakfast1" name="favoriteMeal2" type="checkbox"> <label for="breakfast1">Breakfast</label>
+			
+			<input value="meal2" id="brunch1" name="favoriteMeal2" type="checkbox"> <label for="brunch1">Brunch</label>
+			
+			<input value="meal3" id="lunch1" name="favoriteMeal2" type="checkbox"> <label for="lunch1">Lunch</label>
+		</fieldset>
+	
+		
+	</body>
+</html>

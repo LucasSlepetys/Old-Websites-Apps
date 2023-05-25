@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Tutoring</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@329&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        font-family: "Josefin Sans", sans-serif;
+        color: #ffffff;
+        background: #202731;
+        text-align: center;
+      }
+
+      section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 50px;
+        padding: 5vw 5vw;
+      }
+
+      .blue {
+        background: #8869fa;
+      }
+
+      .red {
+        background: #d03030;
+      }
+
+      .pink {
+        background: #e164de;
+      }
+
+      .dark {
+        background: #302b30;
+      }
+
+      .yellow {
+        background: #d3d33b;
+      }
+
+      .orange {
+        background: #da700c;
+      }
+
+      h1 {
+        font-weight: bold;
+        font-size: 6vw;
+        position: center;
+        text-shadow: 0.3vw 0.3vw #dad7d7;
+      }
+
+      .importP {
+        font-size: 5vw;
+      }
+
+      .mediumImportP {
+        font-size: 4vw;
+        color: rgb(235, 227, 227);
+      }
+
+      .notImportP {
+        font-size: 3vw;
+        color: rgb(182, 181, 181);
+        opacity: 0.7;
+      }
+
+      .moreInfo {
+        font-size: 4.5vw;
+        color: rgb(0, 0, 0);
+      }
+
+      .aboutTopic {
+        font-size: 5vw;
+        color: rgb(76, 0, 255);
+        font-weight: bold;
+      }
+
+      .contactInfoTitle {
+        font-size: 7vw;
+        font-style: italic;
+      }
+      .contactInfo {
+        font-size: 6vw;
+        color: rgb(235, 227, 227);
+      }
+
+      .contactInfoNI {
+        font-size: 5vw;
+        color: rgb(192, 192, 192);
+        opacity: 0.7;
+      }
+
+      .link {
+        text-decoration: none;
+        color: rgba(4, 0, 255, 0.541);
+      }
+
+
+      .spacer {
+        aspect-ratio: 960/300;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .layer1 {
+        background-image: url("./layer1.svg");
+      }
+      .layer2 {
+        background-image: url("./layer2.svg");
+      }
+      .layer3 {
+        background-image: url("./layer3.svg");
+      }
+      .layer4 {
+        background-image: url("./layer4.svg");
+      }
+      .layer5 {
+        background-image: url("./layer5.svg");
+      }
+      #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(207, 140, 140); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 30px; /* Rounded corners */
+  font-size: 3.0vw; /* Increase font size */
+  opacity: 0.7;
+}
+
+#myBtn:hover {
+  background-color: #555;
+  opacity: 0.7;
+}
+
+#myBtn:focus {
+  opacity: 0;
+}
+    </style>
+  </head>
+  <body>
+    <!--! Introduction paragraph: -->
+    <section class="blue">
+      <h1>Tutoring | Lucas Slepetys</h1>
+      <p class="mediumImportP">
+        Set a schedule for a Coding | Math | English tutoring class
+      </p>
+    </section>
+    <!--! Coding tutor: -->
+    <div class="spacer layer1"></div>
+    <section class="red">
+      <h1>Coding Tutoring</h1>
+      <p class="importP">
+        Interested in learning the basics of coding ? or expanding your coding knowledge ?
+      </p>
+      <p class="notImportP">
+        Python | Javascript | HTML/CSS | Dart/Flutter | Java
+      </p>
+      <p class="mediumImportP">
+        Expand your creativity, explore new areas, solve real-world problems, and enjoy the wonders of coding!
+      </p>
+      <p class="notImportP">Lessons in English|All ages welcome!</p>
+    </section>
+    <div class="spacer layer2"></div>
+    <!--! Math tutor: -->
+    <section class="pink">
+      <h1>Math Tutoring</h1>
+      <p class="importP">
+        Does it take an hour to finish a homework assignment that should take 20 minutes? I will help you with your homework and strategies to make math easier than you think it is</p>
+      <p class="notImportP">
+        Any Math topic until 10th grade!
+      </p>
+      <p class="mediumImportP">
+        Get the help you need with your homework to get it done quickly while learning new problem-solving strategies and perspectives</p>
+      <p class="notImportP">Lessons in English|Until 9th Grade!</p>
+    </section>
+    <div class="spacer layer3"></div>
+    <!--! English tutor: -->
+    <section class="dark">
+      <h1>English Tutoring</h1>
+      <p class="importP">
+        Get the help your son or daughter needs to learn basic or new English vocabulary or to read and understand textbooks</p>
+      <p class="notImportP">
+        Any book|subject until 6th grade!
+      </p>
+      <p class="notImportP">Lessons in English|Until 6th Grade!</p>
+    </section>
+    <div class="spacer layer4"></div>
+    <!--! More information: -->
+    <section class="yellow">
+      <h1>More infomation</h1>
+      <p class="aboutTopic">About me:</p> <p class="moreInfo">Hi! I'm Lucas, I'm 16 years old and I love exploring and learning new things daily. Last year I won a coding award and an ESL (English as a Second Language) award and now I am trying to make use of my hobbies to teach and tutor those younger than me, which is why you are reading this website! :)</p>
+      
+       <p class="aboutTopic">About coding:</p> <p class="moreInfo">I have been learning coding for the last 2 years of my life, it started as a school topic and then it became my hobby and passion, I studied website / app development and automation using programming</p>
+      
+        <p class="aboutTopic">About Math:</p> <p class="moreInfo">Math is my second favorite subject in school, I love studying it and learning everything it can offer us. Last year I had to go up a level at the end of the year and with that I had to learn a whole year of math content in just a few weeks, with that I learned a lot of strategies that I am happy to share</p>
+      
+        <p class="aboutTopic">About English:</p> <p class="moreInfo">I am not a native of English, I started learning 4 years ago when I came to Germany and I had to become fluent in order to study in an English school, I have strategies and techniques that I have been using to learn English vocabulary and school vocabulary as quickly as possible</p>
+      <p class="notImportP">All classes are in English, even English classes are still only in English {no German}</p>
+    </section>
+    <div class="spacer layer5"></div>
+    <!--! Contact me: -->
+    <section class="orange" id="content">
+      <h1 class="contactInfoTitle">Contact me!</h1>
+      <p class="contactInfo">
+        Set a schedule & price by contacting me
+      </p>
+      <p class="contactInfoNI">
+        Email: 
+        <a class="link" href= "mailto: lucas.slepetyss@gmail.com">lucas.slepetyss@gmail.com</a>
+      </p>
+      <p class="contactInfo">
+        Phone number: 
+        <a class="link" href="tel: +49 162 4873942">+49 162 4873942</a>
+      </p>
+      <p class="notImportP">Price & schedule to be defined</p>
+      <button onclick="topFunction()" id="myBtn" title="Contact me">Contact Me</button>
+  </body>
+  <script>
+    //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  var elmnt = document.getElementById("content");
+  elmnt.scrollIntoView();
+}
+  </script>
+</html>

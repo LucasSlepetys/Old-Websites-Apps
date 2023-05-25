@@ -1,0 +1,50 @@
+// ------------------------------------------------------------------- //
+In order to open this website, 
+--> open chrome (or any other browser), 
+--> click "cmd" + "space",
+--> search "navigations.html" (make sure you start on this specific page!),
+--> and double click it. Or drag it to your browser.
+
+-------
+
+There is no need for installing any third party modules in order to run this website --->
+However, make sure you have the WiFi on! Since it uses modules and packages such as Jquery, to run the website. (Which comes from your browser!)
+
+All modules are already imported to each HTML page by using the '<script src="">' tag and are ready to run as soon as it is requested to do so on the website.
+(Make sure you have your WiFi turned on!)
+
+-------
+Extra information:
+-------
+
+The website contains only 2 pages. -->
+* The first page is a navigation menu (which contains 2 links which acts as buttons and a <p> tag which acts as a title) 
+
+* Moving to the second page, it contains all the rest of the input and tags needed for the website to form a TODO-List web application. 
+* Even though, the website only contains 2 pages, it still acts up as a 5 page website. {
+    - I have used Jquery in most of the javascript files/parts, since it allows me to write javascript in fewer lines.
+    - I made functions which allows me to remove elements from the screen and add new alements to it in less than a second, to form the impression of multiple pages + a faster loading.
+}
+
+* The website contains at least one of each of the required input/elements {
+    - Textbox
+    - Checkbox
+    - Radio button
+    - Drop down menu
+    - Multiple selection box
+    - Button
+    - Textarea
+    - Table
+}
+
+Note:
+
+* I could not implement the "smtpjs" email system in order to send a email, since I was not able to create a token for my email. --->
+However, I sent a email to my self showing how the email would look like. And I have inserted the image on the last "page"/part of the website. (Name of the file: "email.png")
+
+------
+
+Thank you very much!
+
+Lucas!
+// ------------------------------------------------------------------- //

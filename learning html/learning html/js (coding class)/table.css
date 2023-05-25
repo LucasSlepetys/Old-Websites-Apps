@@ -1,0 +1,58 @@
+/*Table styling*/
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+    width: 50%;
+    margin: 200px;
+}
+
+table th {
+	text-align: center;
+	background-color: darkred;
+	color: #FFF;
+    text-shadow: 1px 1px 0 rgba(0,0,0, .4);
+    border: 5px solid red;
+}
+
+table th,
+table td {
+	border: 5px solid darkred;
+	padding: 2;
+	vertical-align: center;
+}
+
+.orange {
+    background-color: orange;
+    color: #FFF;
+}
+
+.blue {
+    background-color: blue;
+    color: #fff;
+}
+
+.green {
+    background-color: green;
+    color: #fff;
+}
+
+
+/*table styling: done*/
+
+.fix {
+	clear: both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}

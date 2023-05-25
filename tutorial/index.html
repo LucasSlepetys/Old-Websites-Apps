@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Learning JavaScript</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body onload="showDate()">
+	<div class="header">
+		<h1 id= "heading">Learning JavaScript</h1>
+		<p>With Brad Traversy</p>
+	</div>
+	
+	<div class="container">
+	
+	<button onmouseout="clearDate()" onmouseover="showDate()">Show Date </button>
+	
+	<h1 id="time"></h1>
+	</div>
+	
+	
+	<script>
+	
+	
+	
+	function showDate() {
+		var time = document.getElementById("time");
+		time.innerHTML = Date();
+	}
+	
+	function clearDate() {
+		var time = document.getElementById("time");
+		time.innerHTML = '';
+
+	}
+	</script>		
+		
+	</body>
+</html>

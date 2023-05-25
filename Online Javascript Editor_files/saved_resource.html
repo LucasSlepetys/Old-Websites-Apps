@@ -1,0 +1,51 @@
+
+<!-- saved from url=(0014)https://js.do/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>
+window.onerror = function(message, url, linenumber) {  parent.alert_message("error", "<b>JavaScript error:</b> " + message + " on line " + linenumber);};
+</script>
+<script>
+// Edit your script here
+function test()
+
+{
+
+var choice="";
+
+for(var x=0; x<4; x++)
+
+{
+
+if(document.myForm.R1[x].checked==true)
+
+{
+
+choice = document.myForm.R1[x].value;
+
+}
+
+}
+
+document.myForm.myArea.value="The choice is " + choice;
+}
+</script>
+<!-- edit your html here -->
+</head><body><form name="myForm">
+
+<input type="radio" name="R1" value="R2"> R1
+
+<input type="radio" name="R1" value="R2"> R2
+
+<input type="radio" name="R1" value="R3"> R3
+
+<input type="radio" name="R1" value="R4"> R4
+
+<br>
+
+<textarea name="myArea" rows="7" cols="35" wordwrap="">
+</textarea>
+
+<br>
+
+<input type="button" value="Click" onclick="test()">
+
+</form></body></html>

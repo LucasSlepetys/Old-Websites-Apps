@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School form</title>
+    <link rel="stylesheet" type="text/css" href="school_form.css">
+    <script type="text/javascript" src="school_form.js" ></script>
+
+</head>
+<body>
+
+    <div class="main-content-area">
+
+        <h1>Course selection form:</h1>
+        <p>Please fill out this form. It will be used to decide which subjects
+        you will take next year, according to your preferences.</p>
+
+        <form name="myform_name">
+
+            <input type="text" name="first_name" value="" placeholder="First name...">
+            <p></p>
+            <input type="text" name="last_name" value="" placeholder="Last name...">
+
+
+        </form>
+        <h3>Please enter your grade:</h3>
+        <div class="custom-select">
+            <select id="grades" name="grade">
+
+                <option value="6_grade">6</option>
+                <option value="7_grade">7</option>
+                <option value="8_grade">8</option>
+                <option value="9_grade">9</option>
+                <option value="10_grade">10</option>
+                <option value="11_grade">11</option>
+
+
+            </select>th Grade
+        </div>
+        <h3>Please enter all subjects you would like to take next year:</h3>
+        <form name="myform_subjects">
+
+            <label class="container">English
+                <input type="checkbox" name="English" value="English">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Physics
+                <input type="checkbox" name="Physics" value="Physics">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Math
+                <input type="checkbox" name="Math" value="Math">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">History
+                <input type="checkbox" name="History" value="History">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">PE
+                <input type="checkbox" name="PE" value="PE">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Geography
+                <input type="checkbox" name="Geography" value="Geography">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Art
+                <input type="checkbox" name="Art" value="Art">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Chemistry
+                <input type="checkbox" name="Chemistry" value="Chemistry">
+                <span class="checkmark"></span>
+            </label>
+
+            <p></p>
+
+            <input class="button" type="button" name="submit" value="Submit" onClick='submiting()'>
+
+        </form>
+        <p></p>
+
+        <form name="area">
+            <textarea class="areatext" id="note" readonly="" placeholder="Please fill out the form above..." name="myarea" wordwraper></textarea>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* type selectors */
+h1 {
+	color: orange;
+	text-align: center;
+}
+
+
+/* Descendant selectors */
+
+header p {
+	color: green;
+}
+
+header p span {
+	color: blue;
+}
+
+/* class selectors */
+
+.highlight {
+	background-color: yellow;
+}
+
+footer .highlight {
+	background-color: lightgray;
+}
+
+/* Be specific when writing codes on css */
+
+body footer .highlight {
+	background-color: lightgray;
+}

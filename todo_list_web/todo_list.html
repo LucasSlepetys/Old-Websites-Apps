@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todo_list.css" />
+    <script type="text/javascript" src="todo_list.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+
+  <body>
+    <div class="todo_container">
+      <!--! add item: -->
+      <div class="new-item">
+        <h2>New Item</h2>
+
+        <form name="myForm0">
+          <input
+            class="text-input input1"
+            type="text"
+            placeholder="Buy milk..."
+          />
+        </form>
+
+        <form name="myForm1">
+          <input class="date input1" type="text" onfocus="(this.type='date')" />
+          <select name="topic" class="select input1">
+            <option value="School">School</option>
+            <option value="Work">Work</option>
+            <option value="Personal">Personal</option>
+            <option value="Other">Other</option>
+          </select>
+        </form>
+
+        <form name="myForm2">
+          <select name="priorities" class="select2 input1">
+            <option value="Priority 1">Priority 1</option>
+            <option value="Priority 2">Priority 2</option>
+            <option value="Priority 3">Priority 3</option>
+            <option value="Priority 4">Priority 4</option>
+          </select>
+          <input class="time input1" type="text" onfocus="(this.type='time')" />
+          <input class="color input1" type="color" />
+        </form>
+        <form name="area">
+          <textarea
+            class="areatext input1"
+            id="note"
+            placeholder="Write here a note to your self!"
+            name="myarea"
+            wordwraper
+          ></textarea>
+        </form>
+
+        <input type="button" class="button" id="button-send" value="Add Item" />
+
+        <input
+          type="button"
+          class="button"
+          id="button-hide"
+          value="Show All Items"
+          style="display: none"
+        />
+      </div>
+
+      <!--! question: -->
+      <div class="question" style="display: none">
+        <form name="form_second" class="form_second">
+          <input
+            type="text"
+            class="first_name input2"
+            placeholder="First Name..."
+          />
+          <br />
+          <input
+            type="text"
+            class="second_name input2"
+            placeholder="Last Name..."
+          />
+          <br />
+          <input type="email" class="email input2" placeholder="Email..." />
+        </form>
+
+        <form name="form_second/2" class="form_second2">
+          <label class="container"
+            >Mr
+            <input type="radio" value="Mr" checked="checked" name="radio" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Mrs
+            <input type="radio" value="Mrs" name="radio" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Miss
+            <input type="radio" value="Miss" name="radio" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="container"
+            >Ms
+            <input type="radio" value="Ms" name="radio" />
+            <span class="checkmark"></span>
+          </label>
+        </form>
+        <form name="form_second/button" class="form_second/button">
+          <input
+            type="button"
+            class="button"
+            value="Submit!"
+            id="button_question"
+          />
+          <input
+            type="button"
+            class="button"
+            id="button-hiding"
+            value="Show All Items"
+            style="display: none"
+          />
+        </form>
+      </div>
+      <!--! formatting email -->
+      <div class="formating" style="display: none">
+        <p id="paragraph_1"></p>
+        <p>Is this your email?</p>
+        <p id="email_1"></p>
+        <div class="needed">
+          <p>
+            If needed, enter your correct email below and press return/enter!
+          </p>
+          <input
+            type="email"
+            class="emailing"
+            placeholder="Enter your correct email here!"
+          />
+        </div>
+
+        <p id="keep_sending">Keep sending a email --></p>
+
+        <div class="checkbox">
+          <label class="container"
+            >Daily
+            <input type="checkbox" checked="checked" />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container"
+            >Weekly
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container"
+            >Until task is completed
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container"
+            >Until new task is sent
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+        <input type="button" class="button" id="next_step" value="Next Step!" />
+      </div>
+      <div class="send-email" style="display: none">
+        <p id="sending">Send email!</p>
+        <img
+          class="showing-email"
+          src="email.png"
+          alt="Email-Image"
+          style="display: none"
+        />
+      </div>
+
+      <!--! steps: -->
+      <div class="sub-item">
+        <div class="steps">
+          <h2>Steps:</h2>
+
+          <p class="step0">1) Add Item</p>
+          <p class="step1">2) Questions</p>
+          <p class="step2">3) Format Email</p>
+          <p class="step3">4) Send Email</p>
+
+          <p class="next-step">Move To Next Step!</p>
+        </div>
+      </div>
+    </div>
+
+    <input
+      type="button"
+      class="show-button"
+      style="display: none"
+      value="Show Container!"
+    />
+  </body>
+</html>

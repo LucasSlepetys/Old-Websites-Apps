@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ffffff;
+  background: #0e2444;
+  text-align: center;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 50px;
+  margin: 3vw 2vw;
+  padding: 5vw 5vw;
+  background-color: #122b50;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 30%;
+}
+
+.flexSide {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2;
+    margin-right: 4vw;
+}
+
+.flexRight {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.circular--portrait {
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .circular--portrait img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 6vw;
+    position: center;
+    text-shadow: 0.1vw 0.1vw #000000;
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 6vw;
+    position: center;
+    text-shadow: 0.1vw 0.1vw #000000;
+  }
+
+  .gradientP {
+    font-size: 3vw;
+    background: linear-gradient(to left,#312281 10%, #fbfffc 30%, #065e69 50%, #065e69 10%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    text-shadow: 0.1vw 0.1vw #e0d5d5;
+  }

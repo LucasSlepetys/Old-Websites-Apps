@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    color: red;
+}
+
+header {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background: linear-gradient(rgba(167, 157, 157, 0.856), rgba(34, 20, 20, 0.842));
+    height: 80px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+    border-bottom: 5px solid black;
+}
+
+body {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("main_background.jpg");
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.logo img{
+    width: 80px;
+    float: left;
+    height: auto;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+
+    background-image: linear-gradient(45deg, #da1818, #1e29bd);
+  
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.openNav {
+    font-size:30px;
+    cursor:pointer;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.container {
+    text-align: center;
+    margin-top: 40%;
+}
+
+.container h1{
+    font-size: 320%;
+
+    background-image: linear-gradient(45deg, #da1818, #1e29bd);
+  
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+a.button4{
+    display:inline-block;
+    padding:1% 5%;
+    margin:1.3em 0.1em 0.1em 0;
+    border:0.16em solid;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: Raleway,sans-serif;
+    font-weight:400;
+    font-size:100%;
+    color:#FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+
+    background: linear-gradient(to right, 
+    rgba(57, 72, 255, 1), 
+    rgba(57, 213, 255, 1)
+    );
+    
+    background-repeat: repeat-y;
+
+    background-size: 100% 100%;
+}
+a.button4:hover{
+    border-color: rgb(200, 25, 25);
+}
+@media all and (max-width:1%){
+    a.button4{
+        display:block;
+        margin:0.2em auto;
+    }
+}
+
+.line {
+    border-top: 2px dotted red;
+    margin: 5% 25%;
+    margin-top: 5%;
+}
