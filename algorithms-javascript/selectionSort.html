@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Sort</title>
+</head>
+
+<body>
+
+    <h1>To sort:</h1>
+    <h2>384928</h2>
+
+    <h1>Sorted:</h1>
+    <h3></h3>
+</body>
+
+<script>
+    let number = Number(document.querySelector("h2").innerHTML);
+    const sortedNumberField = document.querySelector("h3");
+
+    const list = []
+
+    while (number >= 1) {
+        list.push(number % 10)
+        number = Math.trunc(number / 10)
+    }
+
+    console.log(list)
+
+    function sortList(list) {
+        for (let j = 0; j < list.length; j++) {
+            smallest = j
+
+            for (i = smallest; i < list.length; i++) {
+                if (list[i] < list[smallest]) {
+                    smallest = i;
+                }
+            }
+
+            [list[j], list[smallest]] = [list[smallest], list[j]];
+        }
+        return list;
+    }
+
+    function oddEvenSortList(list) {
+        const sortedList = sortList(list);
+        for (let j = 0; j < sortedList.length; j++) {
+            odd = j
+
+            for (i = odd; i < sortedList.length; i++) {
+                if (sortedList[i] < list[smallest]) {
+                    smallest = i;
+                }
+            }
+
+            [sortedList[j], sortedList[smallest]] = [lisortedListst[smallest], sortedList[j]];
+        }
+        return sortedList;
+    }
+
+
+    sortedNumberField.innerHTML = sortList(list)
+
+</script>
+
+</html>
