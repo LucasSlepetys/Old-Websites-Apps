@@ -1,0 +1,100 @@
+[
+    {
+        "question": "Between what age group are you located ?",
+        "answers": [
+            "Between 10 & 14",
+            "Between 15 & 18",
+            "Between 19 & 30",
+            "Between 30 & 50",
+            "Greater than 51"
+        ],
+        "questionIndex": 0
+    },
+    {
+        "question": "What time do you wake up ?",
+        "answers": [
+            "Between 5am & 6am",
+            "Between 6am & 7am",
+            "Between 7am & 8am",
+            "After 8am"
+        ],
+        "questionIndex": 1
+    },
+    {
+        "question": "What do you do for living ?",
+        "answers": [
+            "Go to school",
+            "Work in an office",
+            "Work at home"
+        ],
+        "questionIndex": 2
+    },
+    {
+        "question": "Which superpower would you like to have ?",
+        "answers": [
+            "Mind reading",
+            "Invisibility",
+            "Teleportation",
+            "Flying"
+        ],
+        "questionIndex": 3
+    },
+    {
+        "question": "If you could time-travel, which period would you go to ?",
+        "answers": [
+            "The past",
+            "The future",
+            "I’m good where I am"
+        ],
+        "questionIndex": 4
+    },
+    {
+        "question": "What type of Zoomer are you ?",
+        "answers": [
+            "The one walking around the house",
+            "The one who just woke up",
+            "The one without the camera on",
+            "The one who always talks",
+            "The one doing funny faces"
+        ],
+        "questionIndex": 5
+    },
+    {
+        "question": "Do you own a pet ?",
+        "answers": [
+            "Yes",
+            "No"
+        ],
+        "questionIndex": 6
+    },
+    {
+        "question": "Are you an early bird or a night owl ?",
+        "answers": [
+            "Early bird",
+            "Night owl"
+        ],
+        "questionIndex": 7
+    },
+    {
+        "question": "Which transport do you use the most ?",
+        "answers": [
+            "Car",
+            "Bus",
+            "Train",
+            "Metro",
+            "Bike"
+        ],
+        "questionIndex": 8
+    },
+    {
+        "question": "How often do you take a shower ?",
+        "answers": [
+            "Everyday",
+            "Every other day",
+            "3 times a week",
+            "Twice a week",
+            "Hmmmm, once a week ??"
+        ],
+        "questionIndex": 9
+    }
+]

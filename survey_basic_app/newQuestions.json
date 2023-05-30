@@ -1,0 +1,214 @@
+[
+    {
+        "question": "Between what age group are you located ?",
+        "answers": [
+            {
+                "answer": "Between 10 & 14",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Between 15 & 18",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Between 19 & 30",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Between 30 & 50",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Greater than 51",
+                "amountOfTimesSelected": 0
+            }
+        ],
+        "questionIndex": 0
+    },
+    {
+        "question": "What time do you wake up ?",
+        "answers": [
+            {
+                "answer": "Between 5am & 6am",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Between 6am & 7am",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Between 7am & 8am",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "After 8am",
+                "amountOfTimesSelected": 0
+            }
+        ],
+        "questionIndex": 1
+    },
+    {
+        "question": "What do you do for living ?",
+        "answers": [
+            {
+                "answer": "Go to school",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Work in an office",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Work at home",
+                "amountOfTimesSelected": 0
+            }
+        ],
+        "questionIndex": 2
+    },
+    {
+        "question": "Which superpower would you like to have ?",
+        "answers": [
+            {
+                "answer": "Mind reading",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Invisibility",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Teleportation",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Flying",
+                "amountOfTimesSelected": 0
+            }
+        ],
+        "questionIndex": 3
+    },
+    {
+        "question": "If you could time-travel, which period would you go to ?",
+        "answers": [
+            {
+                "answer": "The past",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "The future",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "I’m good where I am",
+                "amountOfTimesSelected": 0
+            }
+        ],
+        "questionIndex": 4
+    },
+    {
+        "question": "What type of Zoomer are you ?",
+        "answers": [
+            {
+                "answer": "The one walking around the house",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "The one who just woke up",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "The one without the camera on",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "The one who always talks",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "The one doing funny faces",
+                "amountOfTimesSelected": 0
+            }
+        ],
+        "questionIndex": 5
+    },
+    {
+        "question": "Do you own a pet ?",
+        "answers": [
+            {
+                "answer": "Yes",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "No",
+                "amountOfTimesSelected": 0
+            }
+        ],
+        "questionIndex": 6
+    },
+    {
+        "question": "Are you an early bird or a night owl ?",
+        "answers": [
+            {
+                "answer": "Early bird",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Night owl",
+                "amountOfTimesSelected": 0
+            }
+        ],
+        "questionIndex": 7
+    },
+    {
+        "question": "Which transport do you use the most ?",
+        "answers": [
+            {
+                "answer": "Car",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Bus",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Train",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Metro",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Bike",
+                "amountOfTimesSelected": 0
+            }
+        ],
+        "questionIndex": 8
+    },
+    {
+        "question": "How often do you take a shower ?",
+        "answers": [
+            {
+                "answer": "Everyday",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Every other day",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "3 times a week",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Twice a week",
+                "amountOfTimesSelected": 0
+            },
+            {
+                "answer": "Hmmmm, once a week ??",
+                "amountOfTimesSelected": 0
+            }
+        ],
+        "questionIndex": 9
+    }
+]
