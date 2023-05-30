@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Sort</title>
+</head>
+
+<body>
+
+    <h1>Bubble Sort algorithm:</h1>
+    <h2>Input: </h1>
+        <h3>OutPut: </h3>
+
+</body>
+
+<script>
+
+    const input = document.querySelector('h2');
+    const output = document.querySelector('h3');
+
+    const inputList = [5, 4, 3, 2, 1];
+    input.innerHTML = `INPUT: ${inputList}`;
+    output.innerHTML = `OUTPUT: ${bubbleSort(inputList)}`;
+
+    function bubbleSort(list) {
+
+        for (let i = 0; i < list.length - i; i++) {
+
+            for (let z = 0; z < list.length - i; z++) {
+                if (list[z + 1] < list[z]) {
+                    [list[z + 1], list[z]] = [list[z], list[z + 1]];
+                }
+            }
+        }
+
+        return list;
+    }
+
+
+</script>
+
+</html>

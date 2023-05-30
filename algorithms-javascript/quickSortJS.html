@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Sort</title>
+</head>
+
+<body>
+
+    <h1>Quick Sort algorithm:</h1>
+    <h2>Input: </h1>
+        <h3>OutPut: </h3>
+
+</body>
+
+<script>
+
+    const input = document.querySelector('h2');
+    const output = document.querySelector('h3');
+
+    const inputList = [2, 5, 3, 1, 6, 9, 4, 9, 7, 8, 7, 4, 10];
+    input.innerHTML = `INPUT: ${inputList}`;
+    output.innerHTML = `OUTPUT: ${quickSort(inputList)}`;
+
+    function quickSort(list) {
+
+        if (list.length <= 1) {
+            return list;
+        }
+        const pivot = list[list.length - 1];
+
+        const [leftList, rightList] = [[], []];
+
+        for (let i = 0; i < list.length - 1; i++) {
+            (list[i] < pivot) ? leftList.push(list[i]) : rightList.push(list[i]);
+        }
+
+
+        return [...quickSort(leftList), pivot, ...quickSort(rightList)];
+
+
+    }
+
+
+</script>
+
+</html>
